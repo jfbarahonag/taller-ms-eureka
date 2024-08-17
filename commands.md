@@ -1,0 +1,5 @@
+- `docker build -t img_bancolombia_ms_eureka:v1 .`
+- `docker run -d -p 8761:8083 --name on_bancolomnia_ms_eureka img_bancolombia_ms_eureka:v1`
+- `docker login`
+- `docker tag img_bancolombia_ms_eureka:v1 jfbarahonag/img_bancolombia_ms_eureka:v1`
+- `docker push jfbarahonag/img_bancolombia_ms_eureka:v1`
